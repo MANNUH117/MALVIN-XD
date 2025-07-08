@@ -15,7 +15,7 @@ BOT_NAME: process.env.BOT_NAME || "CCSS-TECH",
 MODE: process.env.MODE || "private",
 // make bot public-private-inbox-group 
 
-LINK_WHITELIST: "youtube.com,github.com",
+LINK_WHITELIST: "youtube.com,github.com,tiktok.com",
 
     LINK_WARN_LIMIT: 3, // Number of warnings before action
 
@@ -24,7 +24,7 @@ LINK_WHITELIST: "youtube.com,github.com",
         AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
+        AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
 // make true if you want auto reply on status 
 
         AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
@@ -37,16 +37,16 @@ LINK_WHITELIST: "youtube.com,github.com",
        WELCOME: process.env.WELCOME || "true",
 // true if want welcome and goodbye msg in groups 
    
-       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
+       ADMIN_EVENTS: process.env.ADMIN_EVENTS || "true",
 // make true to know who dismiss or promoted a member in group
 
       ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 
-      MENTION_REPLY: process.env.MENTION_REPLY || "false",
+      MENTION_REPLY: process.env.MENTION_REPLY || "true",
 // make true if want auto voice reply if someone menetion you 
 
-     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/qumhu4.jpg",
+     MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/vtds5m.jpg",
 // add custom menu and mention reply image url
 
        ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/xshsmk",
@@ -97,7 +97,7 @@ OWNER_NAME: process.env.OWNER_NAME || "MANNUH",
         ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 
-         PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+         PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
 
         AUTO_TYPING: process.env.AUTO_TYPING || "true",
